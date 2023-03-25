@@ -1,0 +1,34 @@
+#footer_main{
+
+place-items: center;
+display: grid;
+min-height: 10vh;
+background-color: #FBF5F3;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+>.DIV{
+display: grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+width: 100%;
+    >#footer_span_contact{
+
+display: grid;
+justify-items: center;
+align-items: center;
+text-align: center;
+
+
+    }
+
+    >#navigation{
+
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+
+        
+    }
+}
+}

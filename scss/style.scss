@@ -1,0 +1,54 @@
+@use "header";
+@use "footer";
+
+
+body {
+
+
+    font-family: sans-serif;
+    background-color: #000022;
+
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#page_main{
+
+display: grid;
+min-height: 80vh;
+place-items: center;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+>#main_span{
+    width: 70%;
+    min-height: 50vh;
+border-radius: 25px;
+background-color: #FBF5F3;
+display: grid;
+text-align: center;
+grid-template-rows: 1fr 1fr 1fr;
+align-items: center;
+justify-items: center;
+>#invis_image{
+
+width: 25%;
+
+}
+
+>.text{
+
+color: orange;
+
+}
+
+
+
+}
+}
